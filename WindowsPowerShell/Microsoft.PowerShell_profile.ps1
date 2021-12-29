@@ -1,6 +1,6 @@
 #region Set aliases for directories
 function Set-Repos { 
-    $Path = Join-Path -Path $env:SystemDrive -ChildPath Sources | Join-Path -ChildPath Repos
+    $Path = Join-Path -Path $env:SystemDrive -ChildPath Repos
     Set-Location -Path $Path
 }
 Set-Alias -Name Repos -Value Set-Repos

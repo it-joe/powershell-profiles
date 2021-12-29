@@ -3,7 +3,7 @@ Set-PoshPrompt -Theme iterm2 #material #nu4a #honukai #gmay #fish #craver #emodi
 
 #region Set aliases for directories
 function Set-Repos { 
-    $Path = Join-Path -Path $env:SystemDrive -ChildPath Sources -AdditionalChildPath Repos
+    $Path = Join-Path -Path $env:SystemDrive -ChildPath Repos
     Set-Location -Path $Path
 }
 Set-Alias -Name Repos -Value Set-Repos
