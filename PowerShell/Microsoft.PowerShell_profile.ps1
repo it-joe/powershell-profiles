@@ -1,5 +1,5 @@
 Import-Module -Name Terminal-Icons
-Set-PoshPrompt -Theme iterm2 #material #nu4a #honukai #gmay #fish #craver #emodipt
+Set-PoshPrompt -Theme amro #star huvix amro negligible
 
 #region Set aliases for directories
 function Set-Repos { 
@@ -7,7 +7,7 @@ function Set-Repos {
     Set-Location -Path $Path
 }
 Set-Alias -Name Repos -Value Set-Repos
-Set-Location C:\Repos
+Set-Location C:\Repos\code-dump
 #endregion
 
 #region ASCII Art
@@ -21,6 +21,6 @@ lojilojilojilojilojilojilojiloggMTAwJSDilZEgCuKVmuKVkOKVkOKVkOKVkOKVkOKVkOKV
 kOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKV
 kOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKV
 kOKVkOKVnQogICAgICAgICAgICAgICAgICAgQ09NUExFVEVEISAg"
-Write-Host $([system.text.encoding]::UTF8.GetString([system.convert]::FromBase64String($asciiArt))) -ForegroundColor DarkCyan
+Write-Host $([system.text.encoding]::UTF8.GetString([system.convert]::FromBase64String($asciiArt))) -ForegroundColor Magenta
 Write-Host "`n"
 #endregion
